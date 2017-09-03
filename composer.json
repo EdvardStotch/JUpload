@@ -1,0 +1,25 @@
+{
+  "name": "EdvardStotch/file-upload",
+  "description": "Blueimp file upload for Laravel",
+  "keywords": ["laravel", "blueimp", "file-upload", "ajax"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "EdvardStotch"
+    }
+  ],
+  "require": {
+    "laravel/framework": "~5.0",
+    "blueimp/jquery-file-upload": "~9.19"
+  },
+  "autoload": {
+    "psr-4": {
+      "JUpload\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
